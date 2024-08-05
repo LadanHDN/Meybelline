@@ -1,0 +1,3816 @@
+/*
+$xl: 1200px;
+$lg: 1022px;
+$md: 768px;
+$sm: 540px;
+*/
+@media screen and (min-width: 1280px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.header {
+      width: 100%;
+      background-color: black; }
+      div.wrapper > div.header > div.banner {
+        height: 40px;
+        width: 100%;
+        background-color: #ff309b; }
+        div.wrapper > div.header > div.banner > a {
+          color: white;
+          font-size: 14px;
+          text-transform: uppercase;
+          text-decoration: underline;
+          font-weight: 700; }
+      div.wrapper > div.header > div.mheader > div.mainhead {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          left: 55px;
+          right: 55px;
+          top: 25px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo > i {
+            font-size: 16px;
+            color: white;
+            opacity: 70%; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.logo {
+          display: flex;
+          align-items: center;
+          margin-top: 9px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.logo > img {
+            width: 150px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.user {
+          position: relative;
+          right: 55px;
+          top: 25px;
+          width: 1rem;
+          height: 1rem; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(1) {
+            width: 30%;
+            font-size: 18px;
+            color: white;
+            opacity: 70%; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(2) {
+            display: none; }
+      div.wrapper > div.header > div.mheader > div.headmenu {
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.headmenu > div.nav {
+          height: 32px; }
+          div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 20px;
+            height: 100%; }
+            div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li {
+              line-height: normal; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > a {
+                color: white;
+                text-transform: uppercase;
+                font-stretch: ultra-condensed;
+                font-family: fil3; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div {
+                display: none;
+                z-index: 10;
+                position: absolute;
+                left: 0;
+                width: 100vw;
+                height: 90vh;
+                background-color: black; }
+                div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div {
+                  max-width: 1220px;
+                  margin: 0 auto;
+                  padding: 24px 0 70px 0; }
+                  div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) {
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 15px; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) > p {
+                      color: white;
+                      font-family: fila;
+                      font-size: 30px;
+                      line-height: 20px;
+                      margin-right: 12px; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) > i {
+                      color: white;
+                      font-size: 15px;
+                      line-height: 20px; }
+                  div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) {
+                      width: 28.5%;
+                      display: flex;
+                      flex-wrap: nowrap;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 10px;
+                      padding-bottom: 8px;
+                      border: 1px solid rgba(221, 255, 0, 0); }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1):hover {
+                        border: 1px solid #6cffff;
+                        border-radius: 5px; }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div {
+                        width: 96%;
+                        height: 98%;
+                        text-align: center;
+                        margin-top: 7px;
+                        background-color: white;
+                        border: 1px solid rgba(108, 255, 255, 0); }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > img {
+                          width: 95%;
+                          margin: 10px; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p {
+                          font-family: fila;
+                          font-size: 25px;
+                          padding: 7px; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:hover {
+                          border: 1px solid #6cffff; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) {
+                      width: 71%;
+                      display: grid;
+                      column-gap: 20px;
+                      grid-template-columns: auto auto auto auto auto; }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div {
+                        padding: 7px;
+                        border: 1px solid rgba(19, 97, 97, 0); }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > img {
+                          width: 100%;
+                          height: 76%; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > p {
+                          font-family: fila;
+                          font-size: 18px;
+                          color: white; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:hover {
+                          border: 1px solid #6cffff;
+                          border-radius: 5px; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li:hover > div {
+                display: block; }
+    div.wrapper > div.smenuUser {
+      width: 233px;
+      height: 0px;
+      background-color: black;
+      position: absolute;
+      right: 50px;
+      top: 90px;
+      z-index: 10;
+      transition: 500ms;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      -ms-transition: 500ms;
+      -o-transition: 500ms; }
+    div.wrapper > div.submenu > div:nth-of-type(1) {
+      display: none;
+      position: absolute;
+      z-index: 10;
+      display: none;
+      width: 100%;
+      height: 90vh;
+      background-color: black; }
+      div.wrapper > div.submenu > div:nth-of-type(1) > div {
+        max-width: 1220px;
+        margin: 0 auto;
+        padding: 24px 0 70px 0; }
+        div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(1) {
+          width: 100%;
+          display: flex;
+          margin-bottom: 15px; }
+          div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(1) > p {
+            color: white;
+            font-family: fila;
+            font-size: 20px;
+            line-height: 20px;
+            margin-right: 12px; }
+          div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(1) > i {
+            color: white;
+            font-size: 15px;
+            line-height: 20px; }
+        div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center; }
+          div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) {
+            width: 28.5%; }
+            div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div {
+              width: 93%;
+              height: 100%;
+              text-align: center;
+              margin-top: 7px;
+              background-color: white;
+              border: 1px solid rgba(108, 255, 255, 0); }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > img {
+                margin: 10px 0; }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p {
+                font-family: fila;
+                font-size: 30px;
+                padding: 7px; }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:hover {
+                border: 1px solid #6cffff; }
+          div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) {
+            width: 71%;
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: auto auto auto auto auto; }
+            div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > div {
+              padding: 7px;
+              border: 1px solid rgba(19, 97, 97, 0); }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > img {
+                width: 100%; }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > p {
+                font-family: fila;
+                font-size: 18px;
+                color: white; }
+              div.wrapper > div.submenu > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:hover {
+                border: 1px solid #6cffff;
+                border-radius: 5px; }
+    div.wrapper > div.submenu > div:nth-of-type(2) {
+      display: none;
+      z-index: 10;
+      position: absolute;
+      width: 100%;
+      height: 90vh;
+      background-color: black; }
+      div.wrapper > div.submenu > div:nth-of-type(2) > div {
+        max-width: 1220px;
+        margin: 0 auto;
+        padding: 24px 0 70px 0; }
+        div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(1) {
+          width: 100%;
+          display: flex;
+          margin-bottom: 15px; }
+          div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(1) > p {
+            color: white;
+            font-family: fila;
+            font-size: 20px;
+            line-height: 20px;
+            margin-right: 12px; }
+          div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(1) > i {
+            color: white;
+            font-size: 15px;
+            line-height: 20px; }
+        div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center; }
+          div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) {
+            width: 28.5%; }
+            div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div {
+              width: 93%;
+              height: 100%;
+              text-align: center;
+              margin-top: 7px;
+              background-color: white;
+              border: 1px solid rgba(108, 255, 255, 0); }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > img {
+                width: 95%;
+                margin: 10px; }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p {
+                font-family: fila;
+                font-size: 30px;
+                padding: 7px; }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:hover {
+                border: 1px solid #6cffff; }
+          div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) {
+            width: 71%;
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: auto auto auto auto auto; }
+            div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div {
+              padding: 7px;
+              border: 1px solid rgba(19, 97, 97, 0); }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > img {
+                width: 100%;
+                height: 85%; }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > p {
+                font-family: fila;
+                font-size: 18px;
+                color: white; }
+              div.wrapper > div.submenu > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:hover {
+                border: 1px solid #6cffff;
+                border-radius: 5px; }
+    div.wrapper > div.slider {
+      height: 540px;
+      max-width: 1440px;
+      margin: 0 auto; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+        position: relative;
+        left: 60px;
+        top: 150px;
+        bottom: 17px;
+        width: 538px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > img {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 30px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > h2 {
+          line-height: 70px;
+          font-size: 70px;
+          color: white;
+          text-align: left; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > p {
+          text-align: left;
+          color: white;
+          font-size: 24px;
+          font-weight: 100;
+          line-height: 29px;
+          margin-bottom: 30px;
+          margin-top: 18px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(2) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+    div.wrapper > div.s1 {
+      max-width: 1320px;
+      height: 700px;
+      width: 91%;
+      margin: 0 auto; }
+      div.wrapper > div.s1 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          margin-top: 20px; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 65px;
+            line-height: 50px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 40px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              font-family: fila;
+              color: black;
+              font-size: 30px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin-top: 25px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 24px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 37px;
+              margin-top: 20px;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s1 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 18px;
+        margin: 30px 0; }
+        div.wrapper > div.s1 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s1 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s1 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s1 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px;
+              line-height: 28px;
+              font-weight: 700; }
+              div.wrapper > div.s1 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s1 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s2 {
+      max-width: 1320px;
+      height: 700px;
+      width: 91%;
+      margin: 0 auto; }
+      div.wrapper > div.s2 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          margin-top: 20px; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 65px;
+            line-height: 50px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 40px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              font-family: fila;
+              color: black;
+              font-size: 30px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin-top: 25px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 24px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 37px;
+              margin-top: 20px;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s2 > div.plinks {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: nowrap;
+        margin: 30px 0; }
+        div.wrapper > div.s2 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s2 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block; }
+            div.wrapper > div.s2 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s2 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 32px; }
+              div.wrapper > div.s2 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s2 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s3 {
+      max-width: 1320px;
+      height: 700px;
+      width: 91%;
+      margin: 0 auto; }
+      div.wrapper > div.s3 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          margin-top: 20px; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 65px;
+            line-height: 50px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 40px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              font-family: fila;
+              color: black;
+              font-size: 30px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin-top: 25px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 24px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 37px;
+              margin-top: 20px;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s3 > div.plinks {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: nowrap;
+        margin: 30px 0; }
+        div.wrapper > div.s3 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s3 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s3 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s3 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 32px; }
+              div.wrapper > div.s3 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s3 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s4 {
+      max-width: 1320px;
+      width: 91%;
+      margin: 0 auto; }
+      div.wrapper > div.s4 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          margin-top: 20px; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 65px;
+            line-height: 50px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 40px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              font-family: fila;
+              color: black;
+              font-size: 30px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin-top: 25px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 24px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 37px;
+              margin-top: 20px;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+      div.wrapper > div.s4 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; }
+        div.wrapper > div.s4 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473;
+          margin: 0 8px 19px 8px; }
+          div.wrapper > div.s4 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); }
+            div.wrapper > div.s4 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s4 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px; }
+              div.wrapper > div.s4 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s4 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-pagination {
+        display: none; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper {
+        padding: 10px; }
+        div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide {
+          padding: 20px;
+          height: auto;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.234); }
+          div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
+            display: block;
+            width: 100%; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > img {
+              height: 330px;
+              position: relative; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > p {
+              position: absolute;
+              color: white;
+              background-color: black;
+              width: 53px;
+              height: 29px;
+              top: 20px;
+              left: 20px;
+              z-index: 10;
+              font-size: 10px;
+              font-family: fil3;
+              line-height: 29px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+              padding-top: 18px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) > img {
+                display: block;
+                object-fit: contain;
+                width: 50%;
+                height: 22px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) {
+              text-align: left;
+              height: 40px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: fila;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                color: black; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p:hover {
+                  text-decoration: underline; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) {
+              text-align: left;
+              margin: 25px 0 12px 0; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) > p {
+                color: #757575;
+                font-size: 16px;
+                font-family: fila;
+                font-weight: 600; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) {
+              text-align: center; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p {
+                width: 100%;
+                height: 100%;
+                line-height: 44px;
+                background-color: black;
+                font-family: fila;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                color: white; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p:hover {
+                  text-decoration: underline; }
+    div.wrapper > div.join {
+      height: 540px;
+      margin: 50px auto;
+      background-image: url(../photos/join/1-1.jpg);
+      max-width: 1440px;
+      width: 100%;
+      height: 538px;
+      position: relative; }
+      div.wrapper > div.join > div.jtext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.join > div.jtext > H2 {
+          font-family: fila;
+          font-size: 70px;
+          font-weight: 700;
+          line-height: 70px;
+          color: white; }
+        div.wrapper > div.join > div.jtext > P {
+          color: white;
+          font-size: 18px;
+          font-family: fil2;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > a {
+          color: white;
+          font-size: 20px;
+          font-family: fila;
+          margin-top: 30px;
+          font-weight: 700; }
+          div.wrapper > div.join > div.jtext > a > i {
+            color: white; }
+    div.wrapper > div.sign {
+      height: 540px;
+      margin: 50px auto 0 auto;
+      background-image: url(../photos/sign/2-1.jpg);
+      max-width: 1440px;
+      width: 100%;
+      height: 538px;
+      position: relative; }
+      div.wrapper > div.sign > div.stext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.sign > div.stext > H2 {
+          font-family: fila;
+          font-size: 70px;
+          font-weight: 700;
+          line-height: 70px;
+          color: white; }
+        div.wrapper > div.sign > div.stext > P {
+          color: white;
+          font-size: 18px;
+          font-family: fil2;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.sign > div.stext > a {
+          color: white;
+          font-size: 20px;
+          font-family: fila;
+          margin-top: 30px;
+          font-weight: 700; }
+          div.wrapper > div.sign > div.stext > a > i {
+            color: white; }
+    div.wrapper > footer {
+      height: 335px;
+      background-color: black; }
+      div.wrapper > footer > div {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 40px 50px; }
+        div.wrapper > footer > div > div.list1-2 > div.list1 {
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list1 > ul {
+            display: flex;
+            gap: 29px;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li {
+              margin-right: 10px; }
+              div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li > a {
+                text-transform: uppercase;
+                color: black;
+                font-family: fila;
+                font-size: 27px;
+                font-weight: 700;
+                color: white; }
+        div.wrapper > footer > div > div.list1-2 > div.list2 {
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list2 > ul {
+            display: flex;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li {
+              margin-right: 10px; }
+              div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li > a {
+                color: black;
+                font-family: fil2;
+                font-size: 13px;
+                color: white;
+                line-height: 0.3;
+                margin-right: 10px; }
+        div.wrapper > footer > div > div.list3 {
+          width: 100%;
+          height: 30px;
+          margin: 50px 0 18px 0; }
+          div.wrapper > footer > div > div.list3 > ul {
+            display: flex;
+            gap: 23px; }
+            div.wrapper > footer > div > div.list3 > ul > li {
+              width: 20px;
+              display: flex; }
+              div.wrapper > footer > div > div.list3 > ul > li > a {
+                width: 100%;
+                height: 100%; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(1) {
+                  width: 30px;
+                  height: 30px;
+                  display: none; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(2) {
+                  width: 30px;
+                  height: 30px; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(1) {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border: 2px solid white;
+                border-radius: 50%; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(2) {
+                width: 30px;
+                height: 30px;
+                display: none; }
+        div.wrapper > footer > div > div.privacy > span {
+          color: white;
+          font-size: 10px;
+          line-height: 0; } }
+
+@media screen and (min-width: 1020px) and (max-width: 1280px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.header {
+      width: 100%;
+      background-color: black; }
+      div.wrapper > div.header > div.banner {
+        height: 40px;
+        width: 100%;
+        background-color: #ff309b; }
+        div.wrapper > div.header > div.banner > a {
+          color: white;
+          font-size: 12px;
+          text-transform: uppercase; }
+      div.wrapper > div.header > div.mheader > div.mainhead {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          left: 55px;
+          right: 55px;
+          top: 25px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo > i {
+            font-size: 16px;
+            color: white;
+            opacity: 70%; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.logo {
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.logo > img {
+            width: 150px;
+            padding-top: 30px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.user {
+          position: relative;
+          right: 55px;
+          top: 25px;
+          width: 1rem;
+          height: 1rem; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(1) {
+            width: 30%;
+            font-size: 18px;
+            color: white;
+            opacity: 70%; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(2) {
+            display: none; }
+      div.wrapper > div.header > div.mheader > div.headmenu {
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.headmenu > div.nav {
+          height: 32px; }
+          div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 20px;
+            height: 100%; }
+            div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li {
+              line-height: normal; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > a {
+                color: white;
+                text-transform: uppercase;
+                font-stretch: ultra-condensed;
+                font-family: fil3;
+                font-size: 14px; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div {
+                display: none;
+                z-index: 10;
+                position: absolute;
+                left: 0;
+                width: 100vw;
+                height: 90vh;
+                background-color: black; }
+                div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div {
+                  max-width: 1110px;
+                  margin: 0 auto;
+                  padding: 24px 0 70px 0; }
+                  div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) {
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 15px; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) > p {
+                      color: white;
+                      font-family: fila;
+                      font-size: 20px;
+                      line-height: 20px;
+                      margin-right: 12px; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(1) > i {
+                      color: white;
+                      font-size: 15px;
+                      line-height: 20px; }
+                  div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) {
+                      width: 28%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 10px;
+                      border: 1px solid rgba(221, 255, 0, 0); }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1):hover {
+                        border: 1px solid #6cffff;
+                        border-radius: 5px; }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div {
+                        width: 93%;
+                        height: 96%;
+                        text-align: center;
+                        background-color: white; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > img {
+                          width: 95%;
+                          margin: 10px; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p {
+                          font-family: fila;
+                          font-size: 30px;
+                          padding: 7px; }
+                    div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) {
+                      width: 71%;
+                      display: grid;
+                      column-gap: 5px;
+                      grid-template-columns: auto auto auto auto auto; }
+                      div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div {
+                        padding: 7px;
+                        border: 1px solid rgba(19, 97, 97, 0); }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > img {
+                          width: 100%;
+                          height: 85%; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > p {
+                          font-family: fila;
+                          font-size: 18px;
+                          color: white; }
+                        div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:hover {
+                          border: 1px solid #6cffff;
+                          border-radius: 5px; }
+              div.wrapper > div.header > div.mheader > div.headmenu > div.nav > ul > li:hover > div {
+                display: block; }
+    div.wrapper > div.slider {
+      height: 432px;
+      margin: 0 auto; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+        position: relative;
+        left: 50px;
+        top: 72px;
+        bottom: 20px;
+        width: 289px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 30px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > h2 {
+          line-height: 40px;
+          font-size: 40px;
+          color: white;
+          text-align: left; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > p {
+          text-align: left;
+          color: white;
+          font-size: 16px;
+          font-weight: 200;
+          line-height: 20px;
+          margin-bottom: 30px;
+          margin-top: 13px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(2) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+    div.wrapper > div.s1 {
+      width: 94.3%;
+      margin: 0 auto; }
+      div.wrapper > div.s1 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 80px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 50px;
+            line-height: 44px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s1 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 15px;
+        margin-top: 20px; }
+        div.wrapper > div.s1 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s1 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 120%); }
+            div.wrapper > div.s1 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s1 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 24.3px;
+              color: white;
+              font-weight: 700;
+              line-height: 24px; }
+              div.wrapper > div.s1 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s1 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s2 {
+      width: 94.3%;
+      margin: 0 auto; }
+      div.wrapper > div.s2 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 80px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 50px;
+            line-height: 44px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s2 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 15px;
+        margin-top: 20px; }
+        div.wrapper > div.s2 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s2 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block; }
+            div.wrapper > div.s2 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s2 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 24.3px;
+              line-height: 24px;
+              color: black;
+              font-weight: 700; }
+              div.wrapper > div.s2 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s2 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s3 {
+      width: 94.3%;
+      margin: 0 auto; }
+      div.wrapper > div.s3 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 80px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 50px;
+            line-height: 44px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s3 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 15px;
+        margin-top: 20px; }
+        div.wrapper > div.s3 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473; }
+          div.wrapper > div.s3 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s3 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s3 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 24.3px;
+              color: white;
+              font-weight: 700;
+              line-height: 24px;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+              word-break: break-word; }
+              div.wrapper > div.s3 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s3 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s4 {
+      width: 94.3%;
+      margin: 0 auto; }
+      div.wrapper > div.s4 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 80px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 50px;
+            line-height: 44px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s4 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; }
+        div.wrapper > div.s4 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473;
+          margin: 0 8px 19px 8px; }
+          div.wrapper > div.s4 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); }
+            div.wrapper > div.s4 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s4 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px; }
+              div.wrapper > div.s4 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s4 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-pagination {
+        display: none; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper {
+        padding: 10px; }
+        div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide {
+          padding: 20px;
+          height: auto;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.234); }
+          div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
+            display: block;
+            width: 100%; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > img {
+              height: 330px;
+              position: relative; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > p {
+              position: absolute;
+              color: white;
+              background-color: black;
+              width: 53px;
+              height: 29px;
+              top: 20px;
+              left: 20px;
+              z-index: 10;
+              font-size: 10px;
+              font-family: fil3;
+              line-height: 29px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+              padding-top: 18px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) > img {
+                display: block;
+                object-fit: contain;
+                width: 50%;
+                height: 22px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) {
+              text-align: left;
+              height: 40px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: fila;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                color: black; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p:hover {
+                  text-decoration: underline; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) {
+              text-align: left;
+              margin: 25px 0 12px 0; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) > p {
+                color: #757575;
+                font-size: 16px;
+                font-family: fila;
+                font-weight: 600; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) {
+              text-align: center; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p {
+                width: 100%;
+                height: 100%;
+                line-height: 44px;
+                background-color: black;
+                font-family: fila;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                color: white; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p:hover {
+                  text-decoration: underline; }
+    div.wrapper > div.join {
+      width: 94%;
+      height: 388px;
+      margin: 50px auto 0 auto;
+      background-image: url(../photos/join/1-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; }
+      div.wrapper > div.join > div.jtext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.join > div.jtext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700;
+          text-align: center; }
+          div.wrapper > div.join > div.jtext > a > i {
+            color: white; }
+    div.wrapper > div.sign {
+      width: 94%;
+      height: 388px;
+      margin: 50px auto 0 auto;
+      background-image: url(../photos/sign/2-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center; }
+      div.wrapper > div.sign > div.stext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.sign > div.stext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white; }
+        div.wrapper > div.sign > div.stext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.sign > div.stext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700; }
+          div.wrapper > div.sign > div.stext > a > i {
+            color: white; }
+    div.wrapper > footer {
+      background-color: black; }
+      div.wrapper > footer > div {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 40px 30px; }
+        div.wrapper > footer > div > div.list1-2 {
+          display: flex; }
+          div.wrapper > footer > div > div.list1-2 > div.list1 {
+            width: 50%;
+            display: block;
+            margin-bottom: 34px; }
+            div.wrapper > footer > div > div.list1-2 > div.list1 > ul {
+              display: flex;
+              justify-content: left; }
+              div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li {
+                width: 40%;
+                margin-right: 10px;
+                margin-bottom: 15px; }
+                div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li > a {
+                  text-transform: uppercase;
+                  color: black;
+                  font-family: fila;
+                  font-size: 20px;
+                  font-weight: 700;
+                  color: white; }
+          div.wrapper > footer > div > div.list1-2 > div.list2 {
+            width: 49.5%;
+            display: block;
+            margin-bottom: 34px; }
+            div.wrapper > footer > div > div.list1-2 > div.list2 > ul {
+              display: flex;
+              justify-content: left; }
+              div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li {
+                width: 47%;
+                margin-right: 10px;
+                margin-bottom: 10px; }
+                div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li > a {
+                  color: black;
+                  font-family: fil2;
+                  font-size: 13px;
+                  color: white;
+                  line-height: 0.3;
+                  margin-right: 10px; }
+        div.wrapper > footer > div > div.list3 {
+          width: 100%;
+          height: 30px;
+          margin: 10px 0 18px 0; }
+          div.wrapper > footer > div > div.list3 > ul {
+            display: flex;
+            gap: 23px; }
+            div.wrapper > footer > div > div.list3 > ul > li {
+              width: 20px;
+              display: flex; }
+              div.wrapper > footer > div > div.list3 > ul > li > a {
+                width: 100%;
+                height: 100%; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(1) {
+                  width: 30px;
+                  height: 30px;
+                  display: none; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(2) {
+                  width: 30px;
+                  height: 30px; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(1) {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border: 2px solid white;
+                border-radius: 50%; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(2) {
+                width: 30px;
+                height: 30px;
+                display: none; }
+        div.wrapper > footer > div > div.privacy > span {
+          color: white;
+          font-size: 10px;
+          line-height: 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.header {
+      width: 100%;
+      background-color: black; }
+      div.wrapper > div.header > div.banner {
+        height: 40px;
+        width: 100%;
+        background-color: #ff309b; }
+        div.wrapper > div.header > div.banner > a {
+          color: white;
+          font-size: 12px;
+          text-transform: uppercase; }
+      div.wrapper > div.header > div.mheader > div.mainhead {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          left: 45px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo > i {
+            font-size: 18px;
+            color: white;
+            opacity: 70%; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.logo {
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.logo > img {
+            width: 120px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.user {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          right: 45px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(2) {
+            font-size: 20px;
+            color: white;
+            opacity: 70%; }
+      div.wrapper > div.header > div.mheader > div.headmenu {
+        display: none; }
+    div.wrapper > div.slider {
+      height: 388px;
+      margin: 0 auto; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+        position: relative;
+        left: 50px;
+        top: 35px;
+        bottom: 20px;
+        width: 289px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 30px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > h2 {
+          line-height: 40px;
+          font-size: 40px;
+          color: white;
+          text-align: left; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > p {
+          text-align: left;
+          color: white;
+          font-size: 16px;
+          font-weight: 200;
+          line-height: 20px;
+          margin-bottom: 30px;
+          margin-top: 13px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(2) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+    div.wrapper > div.s1 {
+      height: 600px;
+      width: 92%;
+      margin: 0 auto; }
+      div.wrapper > div.s1 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 73px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 49px;
+            line-height: 47px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s1 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 14px;
+        margin-top: 20px; }
+        div.wrapper > div.s1 > div.plinks > div {
+          position: relative;
+          width: calc(100% + 2.375rem);
+          height: 360px; }
+          div.wrapper > div.s1 > div.plinks > div > a {
+            display: block;
+            width: 240px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s1 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s1 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700;
+              line-height: 27px; }
+              div.wrapper > div.s1 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s1 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 23rem;
+                display: none; }
+    div.wrapper > div.s2 {
+      height: 600px;
+      width: 92%;
+      margin: 0 auto; }
+      div.wrapper > div.s2 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 73px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 49px;
+            line-height: 47px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s2 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 14px;
+        margin-top: 20px; }
+        div.wrapper > div.s2 > div.plinks > div {
+          position: relative;
+          width: calc(100% + 2.375rem);
+          height: 360px; }
+          div.wrapper > div.s2 > div.plinks > div > a {
+            display: block;
+            width: 240px !important;
+            height: 100%; }
+            div.wrapper > div.s2 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              display: block; }
+            div.wrapper > div.s2 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700;
+              line-height: 27px; }
+              div.wrapper > div.s2 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s2 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 23rem;
+                display: none; }
+    div.wrapper > div.s3 {
+      height: 600px;
+      width: 92%;
+      margin: 0 auto; }
+      div.wrapper > div.s3 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 73px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 49px;
+            line-height: 47px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.s3 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 14px;
+        margin-top: 20px; }
+        div.wrapper > div.s3 > div.plinks > div {
+          position: relative;
+          width: calc(100% + 2.375rem);
+          height: 360px; }
+          div.wrapper > div.s3 > div.plinks > div > a {
+            display: block;
+            width: 240px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s3 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s3 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700;
+              line-height: 27px; }
+              div.wrapper > div.s3 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s3 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 23rem;
+                display: none; }
+    div.wrapper > div.s4 {
+      height: 600px;
+      width: 94%;
+      margin: 0 auto; }
+      div.wrapper > div.s4 > div.heads {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(2) {
+          width: 80%;
+          height: 73px;
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 49px;
+            line-height: 47px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(3) {
+          width: 19%;
+          height: 73px;
+          display: flex;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div {
+            padding-bottom: 20px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+              color: black;
+              font-size: 28px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+                margin: 0px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+              font-family: fila;
+              color: black;
+              font-size: 18px;
+              display: inline-block;
+              vertical-align: top;
+              line-height: 30px;
+              margin-top: 0;
+              font-weight: 600;
+              letter-spacing: 1.8px; }
+              div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+                text-decoration: underline; }
+      div.wrapper > div.s4 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; }
+        div.wrapper > div.s4 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473;
+          margin: 0 8px 19px 8px; }
+          div.wrapper > div.s4 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); }
+            div.wrapper > div.s4 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s4 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px; }
+              div.wrapper > div.s4 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s4 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-pagination {
+        display: none; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper {
+        padding: 10px; }
+        div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide {
+          padding: 20px;
+          height: auto;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.234); }
+          div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
+            display: block;
+            width: 100%; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > img {
+              height: 330px;
+              position: relative; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > p {
+              position: absolute;
+              color: white;
+              background-color: black;
+              width: 53px;
+              height: 29px;
+              top: 20px;
+              left: 20px;
+              z-index: 10;
+              font-size: 10px;
+              font-family: fil3;
+              line-height: 29px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+              padding-top: 18px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) > img {
+                display: block;
+                object-fit: contain;
+                width: 50%;
+                height: 22px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) {
+              text-align: left;
+              height: 40px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: fila;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                color: black; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p:hover {
+                  text-decoration: underline; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) {
+              text-align: left;
+              margin: 25px 0 12px 0; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) > p {
+                color: #757575;
+                font-size: 16px;
+                font-family: fila;
+                font-weight: 600; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) {
+              text-align: center; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p {
+                width: 100%;
+                height: 100%;
+                line-height: 44px;
+                background-color: black;
+                font-family: fila;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                color: white; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p:hover {
+                  text-decoration: underline; }
+    div.wrapper > div.join {
+      width: 94%;
+      height: 388px;
+      margin: 50px auto 0 auto;
+      background-image: url(../photos/join/1-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; }
+      div.wrapper > div.join > div.jtext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.join > div.jtext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700;
+          text-align: center; }
+          div.wrapper > div.join > div.jtext > a > i {
+            color: white; }
+    div.wrapper > div.sign {
+      width: 94%;
+      height: 388px;
+      margin: 50px auto 0 auto;
+      background-image: url(../photos/sign/2-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center; }
+      div.wrapper > div.sign > div.stext {
+        width: 40%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.sign > div.stext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white; }
+        div.wrapper > div.sign > div.stext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 424px;
+          text-align: center; }
+        div.wrapper > div.sign > div.stext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700; }
+          div.wrapper > div.sign > div.stext > a > i {
+            color: white; }
+    div.wrapper > footer {
+      background-color: black; }
+      div.wrapper > footer > div {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 40px 30px; }
+        div.wrapper > footer > div > div.list1-2 {
+          display: flex; }
+          div.wrapper > footer > div > div.list1-2 > div.list1 {
+            width: 50%;
+            display: block;
+            margin-bottom: 34px; }
+            div.wrapper > footer > div > div.list1-2 > div.list1 > ul {
+              display: flex;
+              justify-content: left; }
+              div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li {
+                width: 40%;
+                margin-right: 10px;
+                margin-bottom: 15px; }
+                div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li > a {
+                  text-transform: uppercase;
+                  color: black;
+                  font-family: fila;
+                  font-size: 20px;
+                  font-weight: 700;
+                  color: white; }
+          div.wrapper > footer > div > div.list1-2 > div.list2 {
+            width: 49.5%;
+            display: block;
+            margin-bottom: 34px; }
+            div.wrapper > footer > div > div.list1-2 > div.list2 > ul {
+              display: flex;
+              justify-content: left; }
+              div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li {
+                width: 47%;
+                margin-right: 10px;
+                margin-bottom: 10px; }
+                div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li > a {
+                  color: black;
+                  font-family: fil2;
+                  font-size: 13px;
+                  color: white;
+                  line-height: 0.3;
+                  margin-right: 10px; }
+        div.wrapper > footer > div > div.list3 {
+          width: 100%;
+          height: 30px;
+          margin: 10px 0 18px 0; }
+          div.wrapper > footer > div > div.list3 > ul {
+            display: flex;
+            gap: 23px; }
+            div.wrapper > footer > div > div.list3 > ul > li {
+              width: 20px;
+              display: flex; }
+              div.wrapper > footer > div > div.list3 > ul > li > a {
+                width: 100%;
+                height: 100%; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(1) {
+                  width: 30px;
+                  height: 30px;
+                  display: none; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(2) {
+                  width: 30px;
+                  height: 30px; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(1) {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border: 2px solid white;
+                border-radius: 50%; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(2) {
+                width: 30px;
+                height: 30px;
+                display: none; }
+        div.wrapper > footer > div > div.privacy > span {
+          color: white;
+          font-size: 10px;
+          line-height: 0; } }
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.header {
+      width: 100%;
+      background-color: black; }
+      div.wrapper > div.header > div.banner {
+        height: 40px;
+        width: 100%;
+        background-color: #ff309b; }
+        div.wrapper > div.header > div.banner > a {
+          color: white;
+          font-size: 12px;
+          text-transform: uppercase; }
+      div.wrapper > div.header > div.mheader > div.mainhead {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          left: 30px;
+          right: 30px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo > i {
+            font-size: 16px;
+            color: white;
+            opacity: 70%; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.logo {
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.logo > img {
+            width: 112px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.user {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          right: 30px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(2) {
+            font-size: 18px;
+            color: white;
+            opacity: 70%; }
+      div.wrapper > div.header > div.mheader > div.headmenu {
+        display: none; }
+    div.wrapper > div.slider {
+      height: 850px;
+      margin: 0 auto; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+        position: relative;
+        left: 20px;
+        top: 500px;
+        bottom: 20px;
+        width: 289px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 30px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > h2 {
+          line-height: 40px;
+          font-size: 40px;
+          color: white;
+          text-align: left; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > p {
+          text-align: left;
+          color: white;
+          font-size: 16px;
+          font-weight: 200;
+          line-height: 20px;
+          margin-bottom: 30px;
+          margin-top: 13px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/1.jpg);
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(2) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/2.jpg);
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/3.jpg);
+        background-repeat: no-repeat;
+        background-position: 83%;
+        background-size: cover; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) > img {
+          display: none; }
+    div.wrapper > div.s1 {
+      height: 700px;
+      width: 95%;
+      margin: 0 auto; }
+      div.wrapper > div.s1 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 15px 0 7px 0; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 39.5px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            font-weight: 600;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 3px; }
+      div.wrapper > div.s1 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 8px; }
+        div.wrapper > div.s1 > div.plinks > div {
+          position: relative;
+          width: 283px;
+          height: 424px; }
+          div.wrapper > div.s1 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s1 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s1 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700; }
+              div.wrapper > div.s1 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s1 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s2 {
+      height: 700px;
+      width: 95%;
+      margin: 0 auto; }
+      div.wrapper > div.s2 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 15px 0 7px 0; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 39.5px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            font-weight: 600;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 3px; }
+      div.wrapper > div.s2 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 8px; }
+        div.wrapper > div.s2 > div.plinks > div {
+          position: relative;
+          width: 283px;
+          height: 424px; }
+          div.wrapper > div.s2 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%; }
+            div.wrapper > div.s2 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s2 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700; }
+              div.wrapper > div.s2 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s2 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s3 {
+      height: 700px;
+      width: 95%;
+      margin: 0 auto; }
+      div.wrapper > div.s3 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 15px 0 7px 0; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 39.5px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            font-weight: 600;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 3px; }
+      div.wrapper > div.s3 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 8px; }
+        div.wrapper > div.s3 > div.plinks > div {
+          position: relative;
+          width: 283px;
+          height: 424px; }
+          div.wrapper > div.s3 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s3 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s3 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 27px;
+              font-weight: 700; }
+              div.wrapper > div.s3 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s3 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s4 {
+      height: 700px;
+      width: 95%;
+      margin: 0 auto; }
+      div.wrapper > div.s4 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 15px 0 7px 0; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 39.5px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            font-weight: 600;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+      div.wrapper > div.s4 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; }
+        div.wrapper > div.s4 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473;
+          margin: 0 8px 19px 8px; }
+          div.wrapper > div.s4 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); }
+            div.wrapper > div.s4 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s4 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px; }
+              div.wrapper > div.s4 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s4 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-pagination {
+        display: none; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper {
+        padding: 10px; }
+        div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide {
+          padding: 20px;
+          height: auto;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.234); }
+          div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
+            display: block;
+            width: 100%; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > img {
+              height: 330px;
+              position: relative; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > p {
+              position: absolute;
+              color: white;
+              background-color: black;
+              width: 53px;
+              height: 29px;
+              top: 20px;
+              left: 20px;
+              z-index: 10;
+              font-size: 10px;
+              font-family: fil3;
+              line-height: 29px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+              padding-top: 18px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) > img {
+                display: block;
+                object-fit: contain;
+                width: 50%;
+                height: 22px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) {
+              text-align: left;
+              height: 40px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: fila;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                color: black; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p:hover {
+                  text-decoration: underline; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) {
+              text-align: left;
+              margin: 25px 0 12px 0; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) > p {
+                color: #757575;
+                font-size: 16px;
+                font-family: fila;
+                font-weight: 600; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) {
+              text-align: center; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p {
+                width: 100%;
+                height: 100%;
+                line-height: 44px;
+                background-color: black;
+                font-family: fila;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                color: white; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p:hover {
+                  text-decoration: underline; }
+    div.wrapper > div.join {
+      width: 100%;
+      margin: 50px auto 0 auto;
+      min-height: 831px;
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url(../photos/join/2-1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; }
+      div.wrapper > div.join > div.jtext {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        transform: translateX(-50%);
+        top: 90%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.join > div.jtext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700;
+          text-align: center; }
+          div.wrapper > div.join > div.jtext > a > i {
+            color: white; }
+    div.wrapper > div.sign {
+      width: 100%;
+      min-height: 831px;
+      margin: 50px auto 0 auto;
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url(../photos/sign/2-2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center; }
+      div.wrapper > div.sign > div.stext {
+        width: 100%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 90%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.sign > div.stext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white; }
+        div.wrapper > div.sign > div.stext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 95%;
+          text-align: center; }
+        div.wrapper > div.sign > div.stext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700; }
+          div.wrapper > div.sign > div.stext > a > i {
+            color: white; }
+    div.wrapper > footer {
+      background-color: black; }
+      div.wrapper > footer > div {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 40px 30px; }
+        div.wrapper > footer > div > div.list1-2 > div.list1 {
+          width: 100%;
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list1 > ul {
+            display: flex;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li {
+              width: 47%;
+              margin-right: 10px;
+              margin-bottom: 15px; }
+              div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li > a {
+                text-transform: uppercase;
+                color: black;
+                font-family: fila;
+                font-size: 20px;
+                font-weight: 700;
+                color: white; }
+        div.wrapper > footer > div > div.list1-2 > div.list2 {
+          width: 100%;
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list2 > ul {
+            display: flex;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li {
+              width: 47%;
+              margin-right: 10px;
+              margin-bottom: 10px; }
+              div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li > a {
+                color: black;
+                font-family: fil2;
+                font-size: 13px;
+                color: white;
+                line-height: 0.3;
+                margin-right: 10px; }
+        div.wrapper > footer > div > div.list3 {
+          width: 100%;
+          height: 30px;
+          margin: 10px 0 18px 0; }
+          div.wrapper > footer > div > div.list3 > ul {
+            display: flex;
+            gap: 23px; }
+            div.wrapper > footer > div > div.list3 > ul > li {
+              width: 20px;
+              display: flex; }
+              div.wrapper > footer > div > div.list3 > ul > li > a {
+                width: 100%;
+                height: 100%; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(1) {
+                  width: 30px;
+                  height: 30px;
+                  display: none; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(2) {
+                  width: 30px;
+                  height: 30px; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(1) {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border: 2px solid white;
+                border-radius: 50%; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(2) {
+                width: 30px;
+                height: 30px;
+                display: none; }
+        div.wrapper > footer > div > div.privacy > span {
+          color: white;
+          font-size: 10px;
+          line-height: 0; } }
+
+@media screen and (max-width: 540px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.header {
+      width: 100%;
+      background-color: black; }
+      div.wrapper > div.header > div.banner {
+        height: 40px;
+        width: 100%;
+        background-color: #ff309b; }
+        div.wrapper > div.header > div.banner > a {
+          color: white;
+          font-size: 12px;
+          text-transform: uppercase; }
+      div.wrapper > div.header > div.mheader > div.mainhead {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          left: 30px;
+          right: 30px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.searchlogo > i {
+            font-size: 16px;
+            color: white;
+            opacity: 70%; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.logo {
+          display: flex;
+          align-items: center; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.logo > img {
+            width: 112px; }
+        div.wrapper > div.header > div.mheader > div.mainhead > div.user {
+          width: 1rem;
+          height: 1rem;
+          position: relative;
+          right: 30px;
+          top: 20px; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.header > div.mheader > div.mainhead > div.user > i:nth-of-type(2) {
+            font-size: 18px;
+            color: white;
+            opacity: 70%; }
+      div.wrapper > div.header > div.mheader > div.headmenu {
+        display: none; }
+    div.wrapper > div.slider {
+      height: 787px;
+      margin: 0 auto; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+        position: relative;
+        left: 20px;
+        top: 430px;
+        bottom: 30px;
+        width: 289px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 30px; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > h2 {
+          line-height: 40px;
+          font-size: 40px;
+          color: white;
+          text-align: left; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper > div.swiper-slide > div > p {
+          text-align: left;
+          color: white;
+          font-size: 16px;
+          font-weight: 200;
+          line-height: 20px;
+          margin-bottom: 30px;
+          margin-top: 13px;
+          font-family: Arial, Helvetica, sans-serif; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/1.jpg);
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(2) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/2.jpg);
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover; }
+      div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0, transparent 60%), url(../photos/slider/3.jpg);
+        background-repeat: no-repeat;
+        background-position: 83%;
+        background-size: cover; }
+        div.wrapper > div.slider > div.swiper > div.swiper-wrapper div.swiper-slide:nth-of-type(3) > img {
+          display: none; }
+    div.wrapper > div.s1 {
+      height: 750px;
+      width: 93%;
+      margin: 0 auto; }
+      div.wrapper > div.s1 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 35px 0 20px 0; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 40px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s1 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s1 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          line-height: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 11px; }
+      div.wrapper > div.s1 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 10px; }
+        div.wrapper > div.s1 > div.plinks > div {
+          position: relative;
+          width: 283px !important;
+          height: 424px; }
+          div.wrapper > div.s1 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s1 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s1 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 1.7rem;
+              font-weight: 700; }
+              div.wrapper > div.s1 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s1 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s2 {
+      height: 750px;
+      width: 93%;
+      margin: 0 auto; }
+      div.wrapper > div.s2 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 35px 0 20px 0; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 40px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s2 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s2 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          line-height: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 11px; }
+      div.wrapper > div.s2 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 10px; }
+        div.wrapper > div.s2 > div.plinks > div {
+          position: relative;
+          width: 283px !important;
+          height: 424px; }
+          div.wrapper > div.s2 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%; }
+            div.wrapper > div.s2 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s2 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: black;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 1.7rem;
+              font-weight: 700; }
+              div.wrapper > div.s2 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s2 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s3 {
+      height: 750px;
+      width: 93%;
+      margin: 0 auto; }
+      div.wrapper > div.s3 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 20px; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 35px 0 20px 0; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 40px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          width: 19%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s3 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+        div.wrapper > div.s3 > div.heads > div:nth-of-type(4) > p {
+          width: 100%;
+          font-size: 14px;
+          line-height: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 11px; }
+      div.wrapper > div.s3 > div.plinks {
+        display: flex;
+        flex: 0 0 17.6875rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        flex-wrap: nowrap;
+        gap: 10px; }
+        div.wrapper > div.s3 > div.plinks > div {
+          position: relative;
+          width: 283px !important;
+          height: 424px; }
+          div.wrapper > div.s3 > div.plinks > div > a {
+            display: block;
+            width: 283px !important;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)); }
+            div.wrapper > div.s3 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s3 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 1.7rem;
+              font-weight: 700; }
+              div.wrapper > div.s3 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s3 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+    div.wrapper > div.s4 {
+      height: 700px;
+      width: 93%;
+      margin: 0 auto; }
+      div.wrapper > div.s4 > div.heads {
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(1) {
+          width: 100%;
+          height: 40px;
+          border-bottom: 2px solid black; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(2) {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin: 35px 0 20px 0; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(2) > h2 {
+            font-size: 40px;
+            line-height: 40px;
+            width: 100%;
+            font-family: fil3; }
+        div.wrapper > div.s4 > div.heads > div:nth-of-type(3) {
+          position: absolute;
+          bottom: 32px;
+          left: 0;
+          width: 22%;
+          align-items: center;
+          justify-content: right; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) {
+            color: black;
+            font-size: 24px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(1) > i {
+              margin: 0px; }
+          div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span {
+            font-family: fila;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 26px;
+            margin-top: 0;
+            letter-spacing: 1.8px; }
+            div.wrapper > div.s4 > div.heads > div:nth-of-type(3) > div > a:nth-last-of-type(2) > span:hover {
+              text-decoration: underline; }
+      div.wrapper > div.s4 > div.plinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; }
+        div.wrapper > div.s4 > div.plinks > div {
+          position: relative;
+          width: 316px;
+          height: 473;
+          margin: 0 8px 19px 8px; }
+          div.wrapper > div.s4 > div.plinks > div > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); }
+            div.wrapper > div.s4 > div.plinks > div > a > img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              z-index: -1;
+              display: block; }
+            div.wrapper > div.s4 > div.plinks > div > a > span {
+              display: flex;
+              position: absolute;
+              color: white;
+              bottom: 20px;
+              z-index: 20;
+              display: block;
+              margin: 0 25px 2px 25px;
+              font-family: fila;
+              font-size: 32px; }
+              div.wrapper > div.s4 > div.plinks > div > a > span:hover {
+                text-decoration: underline; }
+              div.wrapper > div.s4 > div.plinks > div > a > span > i {
+                display: inline-block;
+                font-size: 20px; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-pagination {
+        display: none; }
+      div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper {
+        padding: 10px; }
+        div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide {
+          padding: 20px;
+          height: auto;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.234); }
+          div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
+            display: block;
+            width: 100%; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > img {
+              height: 330px;
+              position: relative; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(1) > div > p {
+              position: absolute;
+              color: white;
+              background-color: black;
+              width: 53px;
+              height: 29px;
+              top: 20px;
+              left: 20px;
+              z-index: 10;
+              font-size: 10px;
+              font-family: fil3;
+              line-height: 29px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+              padding-top: 18px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) > img {
+                display: block;
+                object-fit: contain;
+                width: 50%;
+                height: 22px; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) {
+              text-align: left;
+              height: 40px; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: fila;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                color: black; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(3) > p:hover {
+                  text-decoration: underline; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) {
+              text-align: left;
+              margin: 25px 0 12px 0; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(2) > p {
+                color: #757575;
+                font-size: 16px;
+                font-family: fila;
+                font-weight: 600; }
+            div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) {
+              text-align: center; }
+              div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p {
+                width: 100%;
+                height: 100%;
+                line-height: 44px;
+                background-color: black;
+                font-family: fila;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                color: white; }
+                div.wrapper > div.s4 > div.pslider > div.pcard > div.productsSlider > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a > div:nth-last-of-type(1) > p:hover {
+                  text-decoration: underline; }
+    div.wrapper > div.join {
+      width: 100%;
+      margin: 50px auto 0 auto;
+      min-height: 831px;
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url(../photos/join/2-1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; }
+      div.wrapper > div.join > div.jtext {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        transform: translateX(-50%);
+        top: 90%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.join > div.jtext > H2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          text-align: center; }
+        div.wrapper > div.join > div.jtext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700;
+          text-align: center; }
+          div.wrapper > div.join > div.jtext > a > i {
+            color: white; }
+    div.wrapper > div.sign {
+      width: 100%;
+      min-height: 831px;
+      margin: 50px auto 0 auto;
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url(../photos/sign/2-2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center; }
+      div.wrapper > div.sign > div.stext {
+        width: 100%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 90%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        div.wrapper > div.sign > div.stext > H2 {
+          font-family: rial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 2rem;
+          color: white; }
+        div.wrapper > div.sign > div.stext > P {
+          color: white;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1rem;
+          max-width: 95%;
+          text-align: center; }
+        div.wrapper > div.sign > div.stext > a {
+          color: white;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 2rem;
+          font-weight: 700; }
+          div.wrapper > div.sign > div.stext > a > i {
+            color: white; }
+    div.wrapper > footer {
+      background-color: black; }
+      div.wrapper > footer > div {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 40px 30px; }
+        div.wrapper > footer > div > div.list1-2 > div.list1 {
+          width: 100%;
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list1 > ul {
+            display: flex;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li {
+              width: 47%;
+              margin-right: 10px;
+              margin-bottom: 15px; }
+              div.wrapper > footer > div > div.list1-2 > div.list1 > ul > li > a {
+                text-transform: uppercase;
+                color: black;
+                font-family: fila;
+                font-size: 20px;
+                font-weight: 700;
+                color: white; }
+        div.wrapper > footer > div > div.list1-2 > div.list2 {
+          width: 100%;
+          display: block;
+          margin-bottom: 34px; }
+          div.wrapper > footer > div > div.list1-2 > div.list2 > ul {
+            display: flex;
+            justify-content: left; }
+            div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li {
+              width: 47%;
+              margin-right: 10px;
+              margin-bottom: 10px; }
+              div.wrapper > footer > div > div.list1-2 > div.list2 > ul > li > a {
+                color: black;
+                font-family: fil2;
+                font-size: 13px;
+                color: white;
+                line-height: 0.3;
+                margin-right: 10px; }
+        div.wrapper > footer > div > div.list3 {
+          width: 100%;
+          height: 30px;
+          margin: 10px 0 18px 0; }
+          div.wrapper > footer > div > div.list3 > ul {
+            display: flex;
+            gap: 23px; }
+            div.wrapper > footer > div > div.list3 > ul > li {
+              width: 20px;
+              display: flex; }
+              div.wrapper > footer > div > div.list3 > ul > li > a {
+                width: 100%;
+                height: 100%; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(1) {
+                  width: 30px;
+                  height: 30px;
+                  display: none; }
+                div.wrapper > footer > div > div.list3 > ul > li > a > img:nth-of-type(2) {
+                  width: 30px;
+                  height: 30px; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(1) {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border: 2px solid white;
+                border-radius: 50%; }
+              div.wrapper > footer > div > div.list3 > ul > li:hover > a > img:nth-of-type(2) {
+                width: 30px;
+                height: 30px;
+                display: none; }
+        div.wrapper > footer > div > div.privacy > span {
+          color: white;
+          font-size: 10px;
+          line-height: 0; } }
+
+/*@include media(1200px);
+@include media(1022px);
+@include media(768px);
+@include media(540px);
+@include media(0px);
+*/
+@font-face {
+  font-family: fila;
+  src: url(../fonts/main/c45ebbd2-f9c4-4b1d-9f60-6c4d85544fc1.7ca41e99.woff2); }
+
+@font-face {
+  font-family: fil2;
+  src: url(../fonts/main/08b57253-2e0d-4c12-9c57-107f6c67bc49.38365077.woff2); }
+
+@font-face {
+  font-family: fil3;
+  src: url(../fonts/neue/HelveticaNeueLTProMd.otf); }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fila; }
+
+p,
+span {
+  font-family: fil2; }
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.showsmeuUser {
+  border: 1px solid white;
+  height: 100px; }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important; }

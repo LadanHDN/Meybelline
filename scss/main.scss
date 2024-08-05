@@ -1,0 +1,88 @@
+@import "./media";
+@include media(1280px);
+@include media(1020px);
+@include media(768px);
+@include media(540px);
+@include media(0px);
+
+/*@include media(1200px);
+@include media(1022px);
+@include media(768px);
+@include media(540px);
+@include media(0px);
+*/
+@font-face {
+  font-family: fila;
+  src: url(../fonts/main/c45ebbd2-f9c4-4b1d-9f60-6c4d85544fc1.7ca41e99.woff2);
+}
+
+@font-face {
+  font-family: fil2;
+  src: url(../fonts/main/08b57253-2e0d-4c12-9c57-107f6c67bc49.38365077.woff2);
+}
+
+@font-face {
+  font-family: fil3;
+  src: url(../fonts/neue/HelveticaNeueLTProMd.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  //font-family: Helvetic;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fila;
+}
+p,
+span {
+  font-family: fil2;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.showsmeuUser {
+  border: 1px solid white;
+  height: 100px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important;
+
+
+
+}

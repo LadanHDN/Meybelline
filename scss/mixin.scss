@@ -1,0 +1,54 @@
+@mixin whb($width , $height , $bg){
+    width: $width;
+    height: $height;
+    background-color: $bg;
+}
+
+
+@mixin flex($flow , $justify , $align , $gap){
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+
+@mixin border($border , $radius , $shadow){
+    border: $border;
+    border-radius: $radius;
+    box-shadow: $shadow;
+}
+
+
+@mixin map($margin , $padding){
+    margin: $margin;
+    padding: $padding;
+}
+
+
+@mixin font($size , $family , $weight , $color , $alin , $lh){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $weight;
+    color: $color;
+    text-align: $alin;
+    line-height: $lh;
+}
+
+
+@mixin position($position , $top , $bottom , $left , $right){
+    position: $position;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+ }
+ 
+ 
+ @mixin bgimage($bimage , $bposition , $bsize , $brepeat){
+     background-image: $bimage;
+     background-position: $bposition;
+     background-size: $bsize;
+     background-repeat: $brepeat;
+ }
